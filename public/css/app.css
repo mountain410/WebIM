@@ -1,0 +1,58 @@
+.app-chat-content{
+  height: -webkit-calc(100% - 40px);
+  overflow-y: auto;
+}
+.app-chat-operator{
+  margin-top: 10px;
+}
+#el_template{
+  display: none;
+}
+
+/* 消息面板样式 */
+.app-msg-panel{
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.app-msg-heading{
+  margin-top: -15px;
+}
+.app-msg-tip{
+  font-size: 12px;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+  margin-right: 15px;
+}
+.app-msg-tip.pull-right{
+  margin-right: 0; 
+}
+.app-msg-body{
+  padding-bottom: 5px;
+}
+
+.backup{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  background: lightgray;
+  opacity: 0.6;
+  display: none;
+}
+
+.app-file-container{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  padding: 10px;
+  width: 400px;
+  margin-left: -200px;
+  z-index: 100;
+  display: none;
+}
